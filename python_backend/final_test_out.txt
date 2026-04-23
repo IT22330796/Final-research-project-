@@ -1,0 +1,30 @@
+--- Method: Div 255 (0 to 1) ---
+  Black: [0.3938, 0.6062]
+  White: [0.3961, 0.6039]
+  Random: [0.3890, 0.6110]
+  YES DISCRIMINATES!
+
+--- Method: No Norm (0 to 255) ---
+  Black: [0.3938, 0.6062]
+  White: [0.4686, 0.5314]
+  Random: [0.6439, 0.3561]
+  YES DISCRIMINATES!
+
+--- Method: Rescale (-1 to 1) ---
+  Black: [0.3921, 0.6079]
+  White: [0.3961, 0.6039]
+  Random: [0.3884, 0.6116]
+  YES DISCRIMINATES!
+
+--- Method: Standardize ---
+  Black: [0.3938, 0.6062]
+  White: [0.3938, 0.6062]
+  Random: [0.3754, 0.6246]
+  YES DISCRIMINATES!
+
+Found layer: input_layer_2 - InputLayer
+  Config: {'batch_shape': (None, 256, 256, 3), 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer_2', 'optional': False}
+Found layer: batch_normalization_2 - BatchNormalization
+  Config: {'name': 'batch_normalization_2', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None}, 'axis': -1, 'momentum': 0.99, 'epsilon': 0.001, 'center': True, 'scale': True, 'beta_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'gamma_initializer': {'module': 'keras.initializers', 'class_name': 'Ones', 'config': {}, 'registered_name': None}, 'moving_mean_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'moving_variance_initializer': {'module': 'keras.initializers', 'class_name': 'Ones', 'config': {}, 'registered_name': None}, 'beta_regularizer': None, 'gamma_regularizer': None, 'beta_constraint': None, 'gamma_constraint': None, 'synchronized': False}
+Found layer: batch_normalization_3 - BatchNormalization
+  Config: {'name': 'batch_normalization_3', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None}, 'axis': -1, 'momentum': 0.99, 'epsilon': 0.001, 'center': True, 'scale': True, 'beta_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'gamma_initializer': {'module': 'keras.initializers', 'class_name': 'Ones', 'config': {}, 'registered_name': None}, 'moving_mean_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'moving_variance_initializer': {'module': 'keras.initializers', 'class_name': 'Ones', 'config': {}, 'registered_name': None}, 'beta_regularizer': None, 'gamma_regularizer': None, 'beta_constraint': None, 'gamma_constraint': None, 'synchronized': False}

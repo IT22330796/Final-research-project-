@@ -1,0 +1,9 @@
+{
+  "confidence": 50.0,
+  "explanation": "No pupil was visible in the provided image, precluding assessment of its shape as a perfect circle.",
+  "prediction": "diseased",
+  "probabilities": {
+    "diseased": 0.5,
+    "healthy": 0.5
+  }
+}
